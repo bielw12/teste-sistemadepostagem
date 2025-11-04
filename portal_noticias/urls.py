@@ -27,8 +27,8 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     
     path('', article_views.home, name='home'),
-    path('article/<slug:slug>/', article_views.article_detail, name='article_detail'),
     path('article/create/', article_views.article_create, name='article_create'),
+    path('article/<slug:slug>/', article_views.article_detail, name='article_detail'),
     path('article/<slug:slug>/edit/', article_views.article_edit, name='article_edit'),
     path('article/<slug:slug>/delete/', article_views.article_delete, name='article_delete'),
     path('article/<int:article_id>/like/', article_views.toggle_like, name='toggle_like'),
