@@ -1,83 +1,53 @@
 🗞️ Portal de Notícias - Django
 
 Portal de notícias completo desenvolvido com Django + Python, incluindo:
-
 Sistema de autenticação
-
 Publicação de artigos
-
 Comentários moderados
-
 Curtidas dinâmicas
-
 Geolocalização com mapas
-
 API REST integrada
 
 🚀 Como Começar
 ✅ 1. Criar um Superusuário (Administrador)
-
 Para acessar o painel administrativo, crie um superusuário:
 
 python manage.py createsuperuser
 
-
 Siga as instruções do terminal:
-
 Nome de usuário
-
 Email (opcional)
-
 Senha segura
 
 ✅ 2. Acessar o Painel Admin
 
 Acesse:
-
 /admin/
-
 Permissões disponíveis:
-
 Gerenciar usuários e perfis
-
 Moderar comentários
-
 Marcar artigos como destaque
-
 Adicionar novas tags
-
 Ver estatísticas de curtidas
 
 ✅ 3. Criar Sua Primeira Conta de Usuário
 
 Acesse:
-
 /register/
-
 Perfis disponíveis:
-
 Leitor → ler, comentar e curtir artigos
-
 Jornalista → criar/editar artigos
 
 ⚠️ Perfis de Administrador só podem ser atribuídos no painel admin por segurança.
 
 ✅ 4. Criar Seu Primeiro Artigo
-
 Faça login como Jornalista ou Admin
-
 Clique em "Criar Artigo"
-
 Preencha:
-
 Título
-
 Resumo
-
 Conteúdo
-
 Imagem (opcional)
-
 Tags
 
 Localização (opcional)
@@ -95,37 +65,26 @@ Administrador	Todas as permissões + destaque, moderação, gestão de usuários
 CRUD completo
 
 Editor de texto rico (Summernote)
-
 Upload de imagens
-
 Tags dinâmicas
-
 Geolocalização com mapas (Folium)
-
 Contador de views
-
 Destaques para Home
 
 💬 Comentários
 
 Moderação manual
-
 Exclusão de comentários próprios
 
 ❤️ Curtidas
-
 Curtir/Descurtir sem reload (AJAX)
-
 Contador atualizado em tempo real
 
 🗺️ Mapas
-
 Marcadores interativos
-
 Visualização da localização
 
 🔌 API REST
-
 Base: /api/
 
 Artigos
@@ -181,57 +140,36 @@ python manage.py collectstatic
 🔒 Segurança
 
 ✅ Proteção CSRF
-
 ✅ Roles e permissões bem definidas
-
 ✅ Moderação obrigatória para comentários
-
 ✅ Upload validado
-
 ✅ API protegida por permissões
-
 ✅ Evita auto-promoção para admin
 
 📚 Tecnologias Utilizadas
-
 Django 4.2.7
-
 Django REST Framework
-
 django-taggit
-
 django-summernote
-
 Pillow
-
 Folium
-
 psycopg2-binary
-
 TailwindCSS
 
 🎯 Próximos Passos
 
 Personalizar layout
-
 Novas funcionalidades
-
 Notificações por email
-
 Testes automatizados
-
 Deploy em produção
-
 Cache e otimizações
 
 ❓ Suporte
 
 Caso encontre problemas:
-
 Verifique os logs do Django
-
 Confira o painel admin
-
 Consulte a documentação em replit.md
 
 🛠️ Desenvolvido com Django + Python 🐍
